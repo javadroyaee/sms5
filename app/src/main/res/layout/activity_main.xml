@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F6FA"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="نمایشگر پیامک بانکی JRweb"
+        android:textColor="#1E272E"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="در حال بررسی مجوزها..."
+        android:textColor="#2F3640"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnSmsPermission"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#5F27CD"
+        android:text="۱. فعال‌سازی دسترسی پیامک"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnOverlayPermission"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#341F97"
+        android:text="۲. فعال‌سازی نمایش روی صفحه (Overlay)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnTestDeposit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#1B8A3D"
+        android:text="تست پاپ‌آپ واریز (سبز)"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnTestWithdraw"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#E65100"
+        android:text="تست پاپ‌آپ برداشت (نارنجی)"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
